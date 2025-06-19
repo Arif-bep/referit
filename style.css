@@ -1,0 +1,81 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  height: 100%;
+  font-family: 'Segoe UI', sans-serif;
+  color: rgb(105, 105, 105);
+}
+
+.navbar {
+  padding: 20px 50px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  position: fixed;
+  width: 100%;
+  z-index: 10;
+}
+
+.logo {
+  font-weight: bold;
+  font-size: 20px;
+  color: #878787;
+}
+
+.nav-links {
+  list-style: none;
+  display: flex;
+  gap: 25px;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: #878787;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: rgb(70, 70, 70);
+}
+
+.hero {
+  height: 100vh;
+  background: url(https://startbootstrap.github.io/startbootstrap-grayscale/assets/img/bg-masthead.jpg) no-repeat center center/cover;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 20px;
+}
+
+.hero h1 {
+  font-size: 80px;
+  letter-spacing: 10px;
+  color: rgba(112, 112, 112, 0.437);
+}
+
+.hero p {
+  margin: 20px 0;
+  font-size: 18px;
+  color: #bbb;
+}
+
+.btn {
+  background-color: #558c88;
+  color: white;
+  padding: 12px 25px;
+  border-radius: 5px;
+  text-decoration: none;
+  font-size: 14px;
+  letter-spacing: 1px;
+  transition: background 0.3s;
+}
+
+.btn:hover {
+  background-color: #2b6a66;
+}
